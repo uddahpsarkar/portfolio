@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UDDAHP Sarkar — Software Engineer</title>
+<link rel="icon" href="download.jpg">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<nav>
+  <a href="#" class="nav-logo">US.dev</a>
+  <div class="nav-links">
+    <a href="#about">about</a>
+    <a href="#projects">work</a>
+    <a href="#skills">skills</a>
+    <a href="#contact">contact</a>
+  </div>
+  <div class="nav-dot"></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="border-top: none; padding: 0;">
+  <div class="hero-grid-line"></div>
+  <div class="hero-left">
+    <div class="hero-tag fade-in">AVAILABLE FOR WORK</div>
+    <h1 class="fade-in delay-1">UDDAHP<br><em>Sarkar</em></h1>
+    <div class="hero-subtitle fade-in delay-2">Software Engineer · Full Stack · Systems</div>
+    <p class="hero-desc fade-in delay-3">
+      I build thoughtful software — fast, resilient, and designed to scale. From APIs to interfaces, I care about every layer of the stack.
+    </p>
+    <div class="hero-btns fade-in delay-4">
+      <a href="#projects" class="btn-primary">VIEW MY WORK</a>
+      
+      <a href="#contact" class="btn-ghost">GET IN TOUCH</a>
+    </div>
+  </div>
+  <div class="hero-center">
+    <img class="hero-photo" src="download.png" alt="UDDAHP Sarkar">
+  </div>
+  <div class="hero-right">
+    <div class="hero-code-block fade-in delay-2">
+      <div class="code-comment">// hello, world</div>
+      <br>
+      <div><span class="code-key">const</span> <span class="code-arr">currentStatus</span> = {</div>
+      <div><span class="code-key">education</span>: <span class="code-str">"MCA Student (Osmania University)"</span>,</div>
+      <div>&nbsp;&nbsp;<span class="code-key">working_on</span>: <span class="code-str">"KeySoundStudio - Java Desktop Application"</span>,</div>
+      <div>&nbsp;&nbsp;<span class="code-key">learning</span>: [</div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">"Spring Boot"</span>,</div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">"REST APIs"</span>,</div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">"Backend Development"</span></div>
+      <div>&nbsp;&nbsp;],</div>
+      <div>&nbsp;&nbsp;<span class="code-key">focus</span>: <span class="code-val">"Java Full Stack Development"</span></div>
+      <div>&nbsp;&nbsp;<span class="code-key">goal</span>: <span class="code-str">" "Internship in Software Development (2026)"</span>,</div>
+      <div>&nbsp;&nbsp;<span class="code-key">status</span>: <span class="code-str">"Open to Opportunities"</span>,</div>
+      <div>};</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-num">01 — ABOUT</div>
+  <h2>Crafting software<br>that <em>lasts</em></h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm a software engineer with <strong>6 years of experience</strong> building production systems across startups and scale-ups. I thrive at the intersection of performance, clarity, and craft.</p>
+      <p>My background spans backend infrastructure, API design, and product engineering. I've shipped features used by <strong>millions of users</strong> and led teams through complex technical migrations.</p>
+      <p>Outside of work, I contribute to open source, write about engineering tradeoffs, and occasionally break things in the best way possible.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-box fade-in">
+        <div class="stat-num">6+</div>
+        <div class="stat-label">YEARS EXPERIENCE</div>
+      </div>
+      <div class="stat-box fade-in delay-1">
+        <div class="stat-num">40+</div>
+        <div class="stat-label">PROJECTS SHIPPED</div>
+      </div>
+      <div class="stat-box fade-in delay-2">
+        <div class="stat-num">12</div>
+        <div class="stat-label">OPEN SOURCE REPOS</div>
+      </div>
+      <div class="stat-box fade-in delay-3">
+        <div class="stat-num">3</div>
+        <div class="stat-label">STARTUPS BUILT</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-num">02 — WORK</div>
+  <h2>Selected<br><em>projects</em></h2>
+  <div class="projects-grid">
+
+    <div class="project-card featured fade-in">
+      <div>
+        <div class="project-num">01 — FEATURED</div>
+        <div class="project-name">Flux — Realtime Data Platform</div>
+        <p class="project-desc">A distributed event streaming platform handling 2M+ events/sec. Built with a custom WAL-based replication engine and sub-10ms P99 latency.</p>
+        <div class="project-tags">
+          <span class="tag">Rust</span>
+          <span class="tag">Kafka</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+        <a href="#" class="project-link">View case study</a>
+      </div>
+      <div class="project-featured-visual">
+        <div class="terminal-lines">
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd">flux stream --watch prod</span></div>
+          <div class="t-line"><span class="t-out">▸ 1,847,392 events/sec</span></div>
+          <div class="t-line"><span class="t-out">▸ p99 latency: 7.2ms</span></div>
+          <div class="t-line"><span class="t-out">▸ uptime: 99.997%</span></div>
+          <div class="t-line"><span class="t-prompt">_</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-in delay-1">
+      <div class="project-num">02</div>
+      <div class="project-name">Strata — Dev CLI Toolkit</div>
+      <p class="project-desc">An open-source CLI framework for automating local dev environments. 3.2k GitHub stars, used by 800+ teams.</p>
+      <div class="project-tags">
+        <span class="tag">Go</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Shell</span>
+      </div>
+      <a href="#" class="project-link">GitHub</a>
+    </div>
+
+    <div class="project-card fade-in delay-1">
+      <div class="project-num">03</div>
+      <div class="project-name">Prism — API Gateway</div>
+      <p class="project-desc">A lightweight, composable API gateway with built-in rate limiting, auth, and observability. Handles 50k req/sec on a single node.</p>
+      <div class="project-tags">
+        <span class="tag">TypeScript</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Redis</span>
+      </div>
+      <a href="#" class="project-link">View project</a>
+    </div>
+
+    <div class="project-card featured fade-in">
+      <div>
+        <div class="project-num">01 — FEATURED</div>
+        <div class="project-name">Flux — Realtime Data Platform</div>
+        <p class="project-desc">A distributed event streaming platform handling 2M+ events/sec. Built with a custom WAL-based replication engine and sub-10ms P99 latency.</p>
+        <div class="project-tags">
+          <span class="tag">Rust</span>
+          <span class="tag">Kafka</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+        <a href="#" class="project-link">View case study</a>
+      </div>
+      <div class="project-featured-visual">
+        <div class="terminal-lines">
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd">flux stream --watch prod</span></div>
+          <div class="t-line"><span class="t-out">▸ 1,847,392 events/sec</span></div>
+          <div class="t-line"><span class="t-out">▸ p99 latency: 7.2ms</span></div>
+          <div class="t-line"><span class="t-out">▸ uptime: 99.997%</span></div>
+          <div class="t-line"><span class="t-prompt">_</span></div>
+        </div>
+      </div>
+    </div>
+
+     <div class="project-card fade-in delay-2">
+      <div class="project-num">04</div>
+      <div class="project-name">Orbit — Team Dashboard</div>
+      <p class="project-desc">Internal developer productivity dashboard aggregating metrics across GitHub, PagerDuty, and Datadog into a single unified view.</p>
+      <div class="project-tags">
+        <span class="tag">React</span>
+        <span class="tag">GraphQL</span>
+        <span class="tag">Python</span>
+      </div>
+      <a href="#" class="project-link">Case study</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-num">03 — SKILLS</div>
+  <h2>Tools &amp;<br><em>expertise</em></h2>
+  <div class="skills-layout">
+    <div class="skills-intro fade-in">
+      <p>I'm comfortable across the stack — from low-level systems code to polished product interfaces.</p>
+      <p style="margin-top: 20px; font-size: 14px; color: var(--muted);">I pick the right tool for the job, not the fashionable one.</p>
+    </div>
+    <div class="skills-categories">
+      <div class="fade-in">
+        <div class="skill-cat-label">LANGUAGES</div>
+        <div class="skill-pills">
+          <span class="skill-pill highlight">TypeScript</span>
+          <span class="skill-pill highlight">Go</span>
+          <span class="skill-pill highlight">Rust</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">Bash</span>
+        </div>
+      </div>
+      <div class="fade-in delay-1">
+        <div class="skill-cat-label">BACKEND &amp; INFRA</div>
+        <div class="skill-pills">
+          <span class="skill-pill highlight">Node.js</span>
+          <span class="skill-pill highlight">PostgreSQL</span>
+          <span class="skill-pill highlight">Redis</span>
+          <span class="skill-pill">Kafka</span>
+          <span class="skill-pill">gRPC</span>
+          <span class="skill-pill">GraphQL</span>
+          <span class="skill-pill">REST</span>
+        </div>
+      </div>
+      <div class="fade-in delay-2">
+        <div class="skill-cat-label">CLOUD &amp; DEVOPS</div>
+        <div class="skill-pills">
+          <span class="skill-pill highlight">Kubernetes</span>
+          <span class="skill-pill highlight">AWS</span>
+          <span class="skill-pill">Terraform</span>
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">GitHub Actions</span>
+          <span class="skill-pill">Datadog</span>
+        </div>
+      </div>
+      <div class="fade-in delay-3">
+        <div class="skill-cat-label">FRONTEND</div>
+        <div class="skill-pills">
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">Next.js</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">Figma</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="padding: 120px 72px;">
+  <div class="contact-label">04 — CONTACT</div>
+  <div class="contact-heading fade-in">Let's build something<br><em>remarkable</em></div>
+  <p class="contact-sub fade-in delay-1">Open to full-time roles, contract work, and interesting collaborations. No pitch decks needed — just say hello.</p>
+  <a href="mailto:alex@alexchen.dev" class="contact-email-big fade-in delay-2">uddahpsarkarpdc@gmail.com</a>
+  <div class="contact-links fade-in delay-3">
+    <a href="https://github.com/uddahpsarkar" class="contact-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      GITHUB
+    </a>
+    <a href="https://www.linkedin.com/in/uddahpsarkar/" class="contact-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      LINKEDIN
+    </a>
+      <a href="https://www.facebook.com/uddahpsarkar/" class="contact-link">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+    </svg>
+    FACEBOOK
+    </a>
+  <a href="https://www.linkedin.com/in/uddahpsarkar/" class="contact-link">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+      <path d="M16 11.37a4 4 0 1 1-4.73-4.73 4 4 0 0 1 4.73 4.73z"/>
+      <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+    </svg>
+    INSTAGRAM
+  </a>
+    <a href="https://www.dropbox.com/s/your-resume.pdf?dl=1" class="contact-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      RESUME
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Uddahp Sarkar. Built with care.</p>
+  <p>India telangana, CA · Open to remote</p>
+</footer>
+</body>
+</html>

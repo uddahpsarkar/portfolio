@@ -24,9 +24,9 @@ I enjoy building real-world applications and continuously learning new technolog
 - More projects coming soon...
 
 ## 📬 Contact
-- Email: your@email.com
-- GitHub: https://github.com/yourusername
-- LinkedIn: (add later)
+- Email: suddahpsarkar451@email.com
+- GitHub: https://github.com/uddahpsarkar/
+- LinkedIn: https://www.linkedin.com/in/uddahpsarkar/
 
 ## 📌 Status
 Currently learning Spring Boot and building full-stack applications.
